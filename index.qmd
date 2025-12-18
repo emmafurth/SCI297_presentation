@@ -9,6 +9,8 @@ center: true
 scrollable: true
 execute:
   echo: false
+nocite: |
+  @ahar2024, @oflaherty2019
 ---
 
 ```{r message = FALSE, echo=FALSE}
@@ -73,13 +75,13 @@ Conducted by HUD
 
 Point in Time (PIT) Counts
 
-```         
-track the total number of sheltered and unsheltered homeless individuals
+-   Tracks the total number of sheltered and unsheltered homeless individuals
 
-Also gathers demographic data about homeless populations (race, age, family status, etc.)
-```
+-   Also gathers demographic data about homeless populations (race, age, family status, etc.)
 
-Housing Inventory Counts (HIC) track number of beds available
+Housing Inventory Counts (HIC)
+
+-   Tracks number of beds available
 
 ## PIT Trends Since 2007
 
@@ -107,6 +109,8 @@ The basic geographic unit of AHAR data
 Can be a county, city, or even an entire state
 
 Report does NOT include other demographic data about CoCs (e.g.: population)
+
+## 2024 PIT Counts
 
 ![PIT Counts, 2024](images/pit_count_2024.jpg)
 
