@@ -65,11 +65,11 @@ cocs_2024 <- cocs_2024 |> inner_join(pit_2024_df, by=join_by(COCNUM == CoC.Numbe
 
 ## Annual Homelessness Assessment Report (AHAR)
 
-Systematically tracks homeless population data in the US
+- Systematically tracks homeless population data in the US
 
-Began in 2007
+- Began in 2007
 
-Conducted by HUD
+- Conducted by HUD
 
 ## Data comes in two parts
 
