@@ -193,9 +193,11 @@ Emma Furth
 </div>
 </div>
 </div>
-<p>The basic geographic unit of AHAR data</p>
-<p>Can be a county, city, or even an entire state</p>
-<p>Report does NOT include other demographic data about CoCs (e.g.: population)</p>
+<ul>
+<li class="fragment"><p>The basic geographic unit of AHAR data</p></li>
+<li class="fragment"><p>Can be a county, city, or even an entire state</p></li>
+<li class="fragment"><p>Report does NOT include other demographic data about CoCs (e.g.: population)</p></li>
+</ul>
 </section>
 <section id="pit-counts" class="slide level2 center">
 <h2>2024 PIT Counts</h2>
@@ -203,14 +205,18 @@ Emma Furth
 <img data-src="images/pit_count_2024.jpg" class="r-stretch quarto-figure-center"><p class="caption">PIT Counts, 2024</p></section>
 <section id="solution-geographic-crosswalks" class="slide level2 center">
 <h2>Solution: Geographic Crosswalks</h2>
-<p>Crosswalks are a method for matching data from one set of geographic units to another, overlapping set</p>
-<p>Examples: Congressional Districts to Counties</p>
-<p>Census data is recorded by census tracts; by creating a crosswalk between the two, we can determine overall population counts for CoCs</p>
+<ul>
+<li class="fragment"><p>Crosswalks are a method for matching data from one set of geographic units to another, overlapping set</p></li>
+<li class="fragment"><p>Examples: Congressional Districts to Counties</p></li>
+<li class="fragment"><p>Census data is recorded by census tracts; by creating a crosswalk between the two, we can determine overall population counts for CoCs</p></li>
+</ul>
 </section>
-<section id="section" class="slide level2 center">
-<h2></h2>
-<p><span class="citation" data-cites="byrne2013">Byrne (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span> produced a crosswalk matching CoCs and Census Tracts using centroids</p>
-<p>Unfortunately it was last updated in 2017; code is available, but uses defunct libraries and can not be rerun</p>
+<section id="a-crosswalk-does-exist" class="slide level2 center">
+<h2>A crosswalk does exist</h2>
+<ul>
+<li class="fragment"><p><span class="citation" data-cites="byrne2013">Byrne (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span> produced a crosswalk matching CoCs and Census Tracts using centroids</p></li>
+<li class="fragment"><p>Unfortunately it was last updated in 2017; code is available, but uses defunct libraries and can not be rerun</p></li>
+</ul>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>      coc_number  tract_fips total_population total_pop_in_poverty
@@ -25221,7 +25227,7 @@ Emma Furth
 <h2>Step 1: Recreate the 2017 Data</h2>
 
 <img data-src="index_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
-<section id="section-1" class="slide level2 center">
+<section id="section" class="slide level2 center">
 <h2></h2>
 
 <img data-src="images/pit_count_per_100k_2017.jpg" class="r-stretch quarto-figure-center"><p class="caption">PIT Counts per 100k Population, 2017</p></section>

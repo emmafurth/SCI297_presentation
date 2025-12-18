@@ -104,11 +104,11 @@ ggplot(pit_by_year_df,aes(x=Year, y = Count, colour = Count.Type)) +
 *local planning bodies responsible for coordinating the full range of homelessness services in a geographic area, which may cover a city, county, metropolitan area, or an entire state*
 :::
 
-The basic geographic unit of AHAR data
+- The basic geographic unit of AHAR data
 
-Can be a county, city, or even an entire state
+- Can be a county, city, or even an entire state
 
-Report does NOT include other demographic data about CoCs (e.g.: population)
+- Report does NOT include other demographic data about CoCs (e.g.: population)
 
 ## 2024 PIT Counts
 
@@ -116,19 +116,19 @@ Report does NOT include other demographic data about CoCs (e.g.: population)
 
 ## Solution: Geographic Crosswalks
 
-Crosswalks are a method for matching data from one set of geographic units to another, overlapping set
+- Crosswalks are a method for matching data from one set of geographic units to another, overlapping set
 
-Examples: Congressional Districts to Counties
+- Examples: Congressional Districts to Counties
 
-Census data is recorded by census tracts; by creating a crosswalk between the two, we can determine overall population counts for CoCs
+- Census data is recorded by census tracts; by creating a crosswalk between the two, we can determine overall population counts for CoCs
 
-## 
+## A crosswalk does exist
 
-@byrne2013 produced a crosswalk matching CoCs and Census Tracts using centroids
+- @byrne2013 produced a crosswalk matching CoCs and Census Tracts using centroids
 
-Unfortunately it was last updated in 2017; code is available, but uses defunct libraries and can not be rerun
+- Unfortunately it was last updated in 2017; code is available, but uses defunct libraries and can not be rerun
 
-```{r}
+```{r echo=FALSE}
 tract_coc_match_2017_df <- read.csv("data/output_2017/tract_coc_match.csv")
 
 tract_coc_match_2017_df |>
